@@ -13,8 +13,8 @@
 ## 🎬 Demo
 
 
-https://github.com/user-attachments/assets/c1c890fa-a808-4349-9a11-91817eeae5c2
-
+[https://github.com/user-attachments/assets/c1c890fa-a808-4349-9a11-91817eeae5c2
+](https://www.youtube.com/watch?v=32fBlYAUUsE)
 
 ---
 
