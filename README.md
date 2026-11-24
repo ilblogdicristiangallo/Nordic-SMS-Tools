@@ -10,6 +10,10 @@
 </p>
 
 <p align="center">
+  <b>ZTE MF286D</b> (Nordic firmware) · <b>ZTE MF297D</b> (TIM firmware)
+</p>
+
+<p align="center">
   <a href="#english"><b>🇬🇧 English</b></a> · <a href="#italiano"><b>🇮🇹 Italiano</b></a>
 </p>
 
@@ -43,9 +47,10 @@ No external servers, no accounts: the app talks only to your router, on your loc
 - ✉️ Send SMS through the router's SIM, with sending status (🕓 sending, ✓ sent)
 - 🔔 "New message from the MODEM!" notification with sound and vibration, even when the app is closed
 - 📇 Built-in contacts: first name, last name, phone number and notes, stored in the app (not on the modem)
+- 🗑️ Delete SMS from the router: one message, a whole conversation or all messages at once, with check on the modem
 - 🔐 Encrypted credential storage and optional fingerprint unlock
 - 🌐 "Use web panel" mode: pauses the app for 10 minutes so you can sign in to the router from your PC
-- 🗑️ Delete messages with a long press
+- 🤖 Automatic router detection: the app picks the right login and security method for your model
 - 🌍 26 languages, selected automatically from the phone's system language
 - 🌙 Light and dark theme, animated splash screen
 
@@ -54,7 +59,8 @@ No external servers, no accounts: the app talks only to your router, on your loc
 
 | Router | Firmware | Status |
 |---|---|---|
-| ZTE MF286D | Nordic_MF286D_B14 | ✅ Tested |
+| ZTE MF286D | Nordic (Nordic_MF286D_B14) | ✅ Tested |
+| ZTE MF297D | TIM (CR_TIMITVPMF297DV1.0.0B04) | ✅ Tested |
 
 > Works only when the phone is connected to the **same network** as the router.
 
@@ -89,8 +95,8 @@ flutter build apk --release
 <a id="en-disclaimer"></a>
 ### Disclaimer
 
-Nordic SMS Tools is an independent app, not affiliated with or endorsed by ZTE Corporation.
-"ZTE" and "MF286D" are trademarks of their respective owners and are mentioned only to indicate compatibility.
+Nordic SMS Tools is an independent app, not affiliated with or endorsed by ZTE Corporation or TIM.
+"ZTE", "MF286D", "MF297D" and "TIM" are trademarks of their respective owners and are mentioned only to indicate compatibility.
 
 <p align="right"><a href="#english">↑ Back to top</a></p>
 
@@ -116,9 +122,10 @@ Nessun server esterno, nessun account: l'app comunica solo con il tuo router, su
 - ✉️ Invio SMS tramite la SIM del router, con stato dell'invio (🕓 in invio, ✓ inviato)
 - 🔔 Notifica "Nuovo messaggio dal MODEM!" con suono e vibrazione, anche ad app chiusa
 - 📇 Rubrica integrata: nome, cognome, numero e note, salvati nell'app (non sul modem)
+- 🗑️ Eliminazione degli SMS dal router: un messaggio, un'intera conversazione o tutti insieme, con verifica sul modem
 - 🔐 Credenziali salvate cifrate e sblocco opzionale con impronta digitale
 - 🌐 Modalità "Usa il pannello web": l'app si mette in pausa per 10 minuti per farti accedere al router dal PC
-- 🗑️ Eliminazione dei messaggi con una pressione prolungata
+- 🤖 Riconoscimento automatico del router: l'app sceglie da sola il metodo di accesso e sicurezza giusto per il tuo modello
 - 🌍 26 lingue, scelte in automatico dalla lingua del telefono
 - 🌙 Tema chiaro e scuro, splash screen animata
 
@@ -127,7 +134,8 @@ Nessun server esterno, nessun account: l'app comunica solo con il tuo router, su
 
 | Router | Firmware | Stato |
 |---|---|---|
-| ZTE MF286D | Nordic_MF286D_B14 | ✅ Testato |
+| ZTE MF286D | Nordic (Nordic_MF286D_B14) | ✅ Testato |
+| ZTE MF297D | TIM (CR_TIMITVPMF297DV1.0.0B04) | ✅ Testato |
 
 > Funziona solo quando il telefono è collegato alla **stessa rete** del router.
 
@@ -162,8 +170,8 @@ flutter build apk --release
 <a id="it-disclaimer"></a>
 ### Avvertenze
 
-Nordic SMS Tools è un'app indipendente, non affiliata né approvata da ZTE Corporation.
-"ZTE" e "MF286D" sono marchi dei rispettivi proprietari, citati solo per indicare la compatibilità.
+Nordic SMS Tools è un'app indipendente, non affiliata né approvata da ZTE Corporation o da TIM.
+"ZTE", "MF286D", "MF297D" e "TIM" sono marchi dei rispettivi proprietari, citati solo per indicare la compatibilità.
 
 <p align="right"><a href="#italiano">↑ Torna su</a></p>
 
