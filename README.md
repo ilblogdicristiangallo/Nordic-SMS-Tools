@@ -30,7 +30,7 @@
 <a id="english"></a>
 ## 🇬🇧 English
 
-**Menu:** [About](#en-about) · [Features](#en-features) · [Compatibility](#en-compatibility) · [Download](#en-download) · [Privacy](#en-privacy) · [Build](#en-build) · [Disclaimer](#en-disclaimer) · [License](#license)
+**Menu:** [About](#en-about) · [Features](#en-features) · [Compatibility](#en-compatibility) · [Download](#en-download) · [Notifications](#en-notifications) · [Privacy](#en-privacy) · [Build](#en-build) · [Disclaimer](#en-disclaimer) · [License](#license)
 
 <a id="en-about"></a>
 ### About
@@ -45,12 +45,15 @@ No external servers, no accounts: the app talks only to your router, on your loc
 - 💬 Chat-style conversations, grouped by number, with unread badges
 - ↔️ Sender and recipient always shown on every message
 - ✉️ Send SMS through the router's SIM, with sending status (🕓 sending, ✓ sent)
-- 🔔 "New message from the MODEM!" notification with sound and vibration, even when the app is closed
+- 🔔 WhatsApp-style notifications: contact name, all unread messages, sound, vibration and banner
+- ↩️ **Reply** and **Mark as read** directly from the notification, without opening the app
+- 🔒 Notifications work with the screen locked and the app closed
 - 📇 Built-in contacts: first name, last name, phone number and notes, stored in the app (not on the modem)
-- 🗑️ Delete SMS from the router: one message, a whole conversation or all messages at once, with check on the modem
+- 🗑️ Delete SMS from the router: one message, a whole conversation or all messages at once, checked on the modem
 - 🔐 Encrypted credential storage and optional fingerprint unlock
 - 🌐 "Use web panel" mode: pauses the app for 10 minutes so you can sign in to the router from your PC
 - 🤖 Automatic router detection: the app picks the right login and security method for your model
+- 📱 Phone-brand setup guide: extra steps shown only on brands that close background apps (Xiaomi, Samsung, Huawei, OPPO, vivo…)
 - 🌍 26 languages, selected automatically from the phone's system language
 - 🌙 Light and dark theme, animated splash screen
 
@@ -73,8 +76,17 @@ Get the latest APK from the [Releases](https://github.com/ilblogdicristiangallo/
 
 1. Install the APK on your Android phone (allow installation from unknown sources if asked).
 2. Open the app, enter the router address and the web panel password.
-3. Allow notifications when prompted.
-4. For reliable notifications, set battery usage to **Unrestricted**: Settings › Apps › Nordic SMS Tools › Battery.
+3. Allow notifications and unrestricted battery usage when prompted.
+
+<a id="en-notifications"></a>
+### Notifications setup
+
+On first launch the app asks for:
+1. **Notifications** permission.
+2. **Unrestricted battery** usage, so SMS arrive even with the screen locked.
+3. **Extra steps for your phone brand**, only where needed (Xiaomi, Samsung, Huawei, OPPO, realme, OnePlus, vivo…). Motorola, Google Pixel, Nokia and Sony need no extra steps.
+
+New SMS are checked every 15 seconds while the phone is on the router's Wi-Fi.
 
 <a id="en-privacy"></a>
 ### Privacy
@@ -105,7 +117,7 @@ Nordic SMS Tools is an independent app, not affiliated with or endorsed by ZTE C
 <a id="italiano"></a>
 ## 🇮🇹 Italiano
 
-**Menu:** [Cos'è](#it-about) · [Funzioni](#it-features) · [Compatibilità](#it-compatibility) · [Download](#it-download) · [Privacy](#it-privacy) · [Compilazione](#it-build) · [Avvertenze](#it-disclaimer) · [Licenza](#license)
+**Menu:** [Cos'è](#it-about) · [Funzioni](#it-features) · [Compatibilità](#it-compatibility) · [Download](#it-download) · [Notifiche](#it-notifications) · [Privacy](#it-privacy) · [Compilazione](#it-build) · [Avvertenze](#it-disclaimer) · [Licenza](#license)
 
 <a id="it-about"></a>
 ### Cos'è
@@ -120,12 +132,15 @@ Nessun server esterno, nessun account: l'app comunica solo con il tuo router, su
 - 💬 Conversazioni in stile chat, raggruppate per numero, con indicatore dei non letti
 - ↔️ Mittente e destinatario sempre visibili su ogni messaggio
 - ✉️ Invio SMS tramite la SIM del router, con stato dell'invio (🕓 in invio, ✓ inviato)
-- 🔔 Notifica "Nuovo messaggio dal MODEM!" con suono e vibrazione, anche ad app chiusa
+- 🔔 Notifiche stile WhatsApp: nome del contatto, tutti i messaggi non letti, suono, vibrazione e banner
+- ↩️ **Rispondi** e **Segna come letto** direttamente dalla notifica, senza aprire l'app
+- 🔒 Le notifiche arrivano anche a schermo bloccato e con l'app chiusa
 - 📇 Rubrica integrata: nome, cognome, numero e note, salvati nell'app (non sul modem)
 - 🗑️ Eliminazione degli SMS dal router: un messaggio, un'intera conversazione o tutti insieme, con verifica sul modem
 - 🔐 Credenziali salvate cifrate e sblocco opzionale con impronta digitale
 - 🌐 Modalità "Usa il pannello web": l'app si mette in pausa per 10 minuti per farti accedere al router dal PC
 - 🤖 Riconoscimento automatico del router: l'app sceglie da sola il metodo di accesso e sicurezza giusto per il tuo modello
+- 📱 Guida per marca di telefono: passaggi extra mostrati solo sulle marche che chiudono le app in background (Xiaomi, Samsung, Huawei, OPPO, vivo…)
 - 🌍 26 lingue, scelte in automatico dalla lingua del telefono
 - 🌙 Tema chiaro e scuro, splash screen animata
 
@@ -148,8 +163,17 @@ Scarica l'ultimo APK dalla pagina [Releases](https://github.com/ilblogdicristian
 
 1. Installa l'APK sul telefono Android (se richiesto, consenti l'installazione da origini sconosciute).
 2. Apri l'app, inserisci l'indirizzo del router e la password del pannello web.
-3. Consenti le notifiche quando l'app le chiede.
-4. Per notifiche affidabili, imposta l'uso della batteria su **Senza restrizioni**: Impostazioni › App › Nordic SMS Tools › Batteria.
+3. Consenti le notifiche e l'uso della batteria senza restrizioni quando l'app li chiede.
+
+<a id="it-notifications"></a>
+### Configurazione delle notifiche
+
+Al primo avvio l'app chiede:
+1. Il permesso per le **notifiche**.
+2. L'uso della **batteria senza restrizioni**, così gli SMS arrivano anche a schermo bloccato.
+3. I **passaggi extra per la marca del telefono**, solo dove servono (Xiaomi, Samsung, Huawei, OPPO, realme, OnePlus, vivo…). Motorola, Google Pixel, Nokia e Sony non hanno bisogno di passaggi extra.
+
+I nuovi SMS vengono controllati ogni 15 secondi, quando il telefono è collegato al Wi-Fi del router.
 
 <a id="it-privacy"></a>
 ### Privacy
