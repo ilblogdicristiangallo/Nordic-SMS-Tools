@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/icon/logo.png" width="140" alt="Nordic SMS Tools logo">
+  <img src="logo.png" width="140" alt="Nordic SMS Tools logo">
 </p>
 
 <h1 align="center">Nordic SMS Tools</h1>
