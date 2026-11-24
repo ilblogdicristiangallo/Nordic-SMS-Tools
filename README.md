@@ -10,13 +10,13 @@
 
 ---
 
-## 🎬 Demo
-
-
-[[https://github.com/user-attachments/assets/c1c890fa-a808-4349-9a11-91817eeae5c2
-](https://www.youtube.com/watch?v=32fBlYAUUsE)](https://www.youtube.com/watch?v=32fBlYAUUsE)
-
----
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=32fBlYAUUsE">
+    <img src="https://img.youtube.com/vi/32fBlYAUUsE/hqdefault.jpg" width="480" alt="ZTE MF286D NORDIC SMS TOOLS – guarda il video">
+  </a>
+  <br>
+  <sub>▶ Clicca per guardare il video su YouTube</sub>
+</p>
 
 ## About
 
